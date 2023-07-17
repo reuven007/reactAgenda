@@ -1,7 +1,6 @@
 import React from "react";
 import "./styles.css";
 
-
 import Navbar from "./components/Navbar/Navbar";
 import TaskList from "./components/TaskList/TaskList";
 
@@ -10,7 +9,7 @@ export default function App() {
     <div className="App">
       <Navbar />
       <div>
-        <TaskList />
+        <TaskList title="livre"/>
       </div>
     </div>
   );
